@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <h4><a href = "index.html">Back to Homepage</a></h4>
+    <style>
+        body {
+            font-family:sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-family: sans-serif;
+        }
+
+        .column {
+            flex-basis: calc(33.33% - 20px); /* Three columns with some spacing */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+
+        p {
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+        h3 {
+            font-size: 20px;
+            color: purple;
+            font-family: sans-serif;
+        }
+        .headshot {
+        max-width: 200px; /* Adjust the size of the headshot as needed */
+        border-radius: 50%; /* To create a circular image */
+        }
+        h4 {
+            text-align: center;
+            font-family: sans-serif;          
+        }
+            a:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <span> </span>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <div class="container">
+        <div class="column">
+            <h2>Hobbies</h2>
+            <p>
+                <ul>
+                    <li>Soccer</li>
+                    <li>NBA- Denver Nuggets</li>
+                    <li> <a href ="gti.jpeg">Cars</a></li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Education</h2>
+            <p>
+                <ul>
+                    <li>Lambert High School 2016-2020</li>
+                    <li>Georgia State University 2020-Present</li>
+                      <ol>
+                        <h2><a href="https://www.siemens-energy.com/global/en.html"> Jobs</a></h2> 
+                        <li>Software Engineer Intern</li>
+                        <li>Hardware Engineer Intern</li>
+                        <li><a href= "https://www.ussoccer.com/referee-program">Professional Soccer Referee</a></li>
+                      </ol>
+                  </ul>
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Favorite Quote</h2>
+            <p>
+                   <h3>"Always remember, if you ain't first, you're last."</h3>
+                    <br>
+                  <h3>  -Ricky Bobby (Talladega Nights) </h3>
+                  <img class="headshot" src="rickybobby.jpeg" alt="">
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>
